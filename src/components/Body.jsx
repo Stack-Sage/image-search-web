@@ -51,7 +51,7 @@ const Body = () => {
       <div className="max-w-lg lg:w-full md:w-auto ">
         <Search onSubmit={handleSearchSubmit} />
       </div>
-      <div className="images-container m-10 p-10 grid w-full h-screen md:grid-cols-3 max-lg:grid-cols-5 lg:grid-cols-4 lg:gap-12 md:gap-8 sm:gap-6 mt-4 sm:grid-cols-2   overflow-y-auto" >
+      <div className="images-container m-10 p-10 grid w-full h-screen md:grid-cols-3  lg:grid-cols-4 lg:gap-12 md:gap-8 sm:gap-6 mt-4 sm:grid-cols-2   overflow-y-auto" >
         {images.map((image) => (
           <Tilt
             key={image.id}
