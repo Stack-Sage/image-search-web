@@ -66,7 +66,7 @@ const Body = () => {
               onClick={() => handleDownload(image.urls.full)}
               className="absolute bottom-1 right-1 p-2 shadow-md rounded-full invert bg-white"
             >
-              <img src="eye.svg" alt="eye" className="w-4 h-4 hover:scale-125 animate-pulse transform ease-in-out " />
+              
 
                <div className="w-4 h-4 relative">
                 <div className="absolute inset-0 bg-black rounded-full"></div>
