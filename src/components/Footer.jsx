@@ -94,7 +94,7 @@ const Footer = () => {
       </a>
 
       <a
-        href="#!"
+        href="https://github.com/Stack-Sage/image-search-web"
         type="button"
         class="rounded-full bg-transparent p-3 font-medium uppercase leading-normal text-surface transition duration-150 ease-in-out hover:bg-neutral-100 focus:outline-none focus:ring-0 dark:text-white dark:hover:bg-secondary-900"
         data-twe-ripple-init>
@@ -114,7 +114,7 @@ const Footer = () => {
 
   <div class="w-full bg-black/5  text-center font-semibold animate-pulse mb-14">
     © 2024 Copyright:
-    <a href="https://tw-elements.com/">Adarsh Pathania</a>
+    <a href="#!"> Adarsh Pathania</a>
   </div>
 </footer>
   )
